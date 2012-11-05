@@ -39,6 +39,12 @@
 				<artifactId>maven-checkstyle-plugin</artifactId>
 				<version>2.9.1</version>
         		<configuration>
+        		 	<additionalBuildcommands>
+           			   <buildcommand>com.atlassw.tools.eclipse.checkstyle.CheckstyleBuilder</buildcommand>
+            		</additionalBuildcommands>
+        		    <additionalProjectnatures>
+	    	          <projectnature>com.atlassw.tools.eclipse.checkstyle.CheckstyleNature</projectnature>
+    	       		</additionalProjectnatures>
           			<configLocation>not-so-strict-checkstyle.xml</configLocation>
         		</configuration>
 			</plugin>
