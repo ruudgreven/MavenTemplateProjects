@@ -35,6 +35,9 @@ As you can see checkstyle is already configured, you just need to add a link to 
 # Run the project
 - Just run the project in the same way as always, just click the run button, choose run on server.
 
+# Enable checkstyle
+To enable checkstyle checkings on the client site right click on your project choose Checkstyle -> Activate Checkstyle
+
 # Commit code
 - Right click on project -> Team -> Commit
 - Enable the checkbox "Push changes to GitHub" to push changes immediately to GitHub
@@ -48,4 +51,4 @@ As you can see checkstyle is already configured, you just need to add a link to 
 - Type "mvn install". Under the target directory you find your war file.
 
 # Run a unit test
-- Right click on your unittest class and choose "Run As Unit test"
+- Right click on your unittest class and choose Run As -> "JUnit test"
