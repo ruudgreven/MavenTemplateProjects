@@ -24,9 +24,9 @@ This project is meant to run under Java 7 and Tomcat 7. Please make sure you hav
 - Choose "Clone a Git repository and add the clone to this view" (One of the small buttons on top of the Git repositories view).
 - Add the HTTPS path from your Git repository (e.g. https://github.com/ruudgreven/MavenTemplateProjects.git )
 - Click next, your project should be found, then finish
-- Open the GIT repository, then go to Working Directory and right click on JerseyWebProjectTemplate and choose "Import projects..."
+- Open the GIT repository, then go to Working Directory and right click on the project (e.g. JerseyWebProjectTemplate) and choose "Import projects..."
 - Choose "Import as general project". Click Next and Finish.
-- Open a command prompt and go to the directory of your project (under workspace).
+- Open a command prompt and go to the directory of your project (under workspace\yourprojectname, where you find the pom.xml file).
 - type "mvn eclipse:eclipse -Dwtpversion=1.5".
 - Go back to eclipse, JEE Perspective, Right click on your project and click refresh.
 
