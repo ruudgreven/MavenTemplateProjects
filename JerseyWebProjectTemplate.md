@@ -27,6 +27,7 @@ This project is meant to run under Java 7 and Tomcat 7. Please make sure you hav
 - Open the GIT repository, then go to Working Directory and right click on the project (e.g. JerseyWebProjectTemplate) and choose "Import projects..."
 - Choose "Import as general project". Click Next and Finish.
 - Open a command prompt and go to the directory of your project (under workspace\yourprojectname, where you find the pom.xml file).
+- type "mvn install". After maven downloaded the necessesary packages it gives an error, that is not a problem now.
 - type "mvn eclipse:eclipse -Dwtpversion=1.5".
 - Go back to eclipse, JEE Perspective, Right click on your project and click refresh.
 
