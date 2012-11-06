@@ -14,9 +14,9 @@ When you have forked or duplicated this project you should do the following thin
 - Add it to the eclipse Git Repository Exploring perspective
 
 - On the command-line with git
-  = git rm README.md (this file)
-  - git mv <projecttemplatename> <newprojectname>
-  - git mv <projecttemplatename>.md <newprojectname>.md
+  - git rm README.md (this file)
+  - git mv &lt;projecttemplatename&gt; &lt;newprojectname&gt;
+  - git mv &lt;projecttemplatename&gt;.md &lt;newprojectname&gt;.md
   - git commit
   - git push
 
